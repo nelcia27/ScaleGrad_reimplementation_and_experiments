@@ -34,7 +34,7 @@ lm_datasets = tokenized_datasets.map(
     group_texts,
     batched=True,
     batch_size=1000,
-    num_proc=4,
+    num_proc=1,
 )
 
 model = AutoModelForCausalLM.from_pretrained(model_checkpoint)
