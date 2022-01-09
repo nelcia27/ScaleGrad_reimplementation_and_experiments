@@ -16,6 +16,7 @@
 - open_ended_generation:
     - run_gpt2.py: trening modelu i konfiguracja eksperymentu
     - scaleGrad.py: reimplementacja funkcji straty "sg_loss" (główne zadanie w projekcie)
+    - Open_ended_genetarion_experiments.ipynb: trening modeli z wykorzystaniem sg_loss (gamma=0.2) oraz mle (sg_loss, ale gamma=1.0)
 - directed_generation: (TODO) 
     - text_summarization 
     - image_paragraph_captioning
